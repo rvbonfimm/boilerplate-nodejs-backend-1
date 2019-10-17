@@ -1,0 +1,37 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "A boilerplate for NodeJS apps. Softwares used: ExpressJS, MongoDB, Jest for TDD, Express-session for auth and CRUD configured for user entity + system basic ops (index, login and logout)",
+  "main": "src/index.js",
+  "repository": "https://github.com/rvbonfimm/poiema-credentials-backend",
+  "author": "poiema-dev",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "connect-loki": "^1.1.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "isemail": "^3.2.0",
+    "mongodb": "^3.3.2",
+    "mongoose": "^5.7.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "eslint": "^6.5.1",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.3",
+    "supertest": "^4.0.2"
+  },
+  "scripts": {
+    "start": "set NODE_ENV=prod && node src/index.js --ignore __tests__",
+    "dev": "set NODE_ENV=dev && nodemon src/index.js --ignore __tests__",
+    "test": "jest"
+  }
+}
