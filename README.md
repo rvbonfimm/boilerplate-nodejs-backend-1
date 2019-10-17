@@ -12,3 +12,5 @@ Tecnologies used:
     - Index;
     - Login;
     - Logout;
+  - Eslint for code patters;
+  - Dotenv for environment config;
