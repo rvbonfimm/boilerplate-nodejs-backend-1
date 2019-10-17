@@ -7,7 +7,7 @@ Tecnologies used:
   - MongoDB;
   - Express-session for user auth;
   - Jest TDD for tests;
-  - CRUD for user entity (TDD tests + REST API):
+  - CRUD for user entity (TDD tests (100% coveraged) + Code Coverage + REST API):
   - System basic operations:
     - Index;
     - Login;
