@@ -15,7 +15,7 @@
     "express-session": "^1.16.2",
     "isemail": "^3.2.0",
     "mongodb": "^3.3.2",
-    "mongoose": "^5.7.4"
+    "mongoose": "^5.7.5"
   },
   "devDependencies": {
     "@types/jest": "^24.0.18",
